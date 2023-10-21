@@ -221,7 +221,6 @@ footer {
    }
 
    .first {
-      /* border: 1px solid red; */
       padding: 2em;
    }
 
@@ -234,7 +233,6 @@ footer {
    }
    
    .cmp-name {
-      /* border: 1px solid gold; */
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
    }
@@ -259,7 +257,6 @@ footer {
    
    .third {
       padding: 1em;
-      /* border: 1px solid red; */
    }
 
    .founder h1 {
@@ -289,8 +286,9 @@ footer {
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
 
+/* Desktop  design */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
    .header-wrapper {
       padding: 5em;
       width: 100%;
@@ -319,7 +317,6 @@ footer {
       display: flex;
       text-align: center;
       justify-content: space-between;
-      /* border: 1px solid greenyellow; */
    }
 
    .jonas h2 {
@@ -341,7 +338,6 @@ footer {
 
    .first {
       padding: 5em;
-      /* border: 1px solid tomato; */
       width: 100%;
    }
 
@@ -356,7 +352,6 @@ footer {
    }
 
    .cmp-name {
-      /* border: 1px solid gold; */
       display: flex;
       justify-content: space-between;
    }
@@ -364,7 +359,6 @@ footer {
    .second {
       width: 100%;
       padding: 5em;
-      /* border: 1px solid yellow; */
       display: flex;
       gap: 50px;
    }
@@ -383,7 +377,6 @@ footer {
       padding: 5em;
       width: 100%;
       align-items: center;
-      /* text-align: center; */
       justify-content: center;
    }
 
